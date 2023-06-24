@@ -29,7 +29,7 @@ const App = () => {
               <h1>{mov.Title}({mov.Year})</h1>
               <img src={mov.Poster}></img>
             </li>
-          )):<p className="error">Invalid movie name. Please try again</p>
+          )):<p className="error">Invalid movie name. Please try again.</p>
         }
       </ul>
      
